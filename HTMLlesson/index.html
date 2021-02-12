@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--(comment crtl + / or ?) Holds metadata information we dont see
+        -links, viewport info, document title, etc. -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Blog</title>
+    <!--  <style>
+        body {
+            background-color: aqua;
+            background-color: black;
+        </style>} -->
+        
+</head>
+<body>
+
+    <header>
+        <!-- 
+            - header can be used for introductory content or a set of navigational links.
+         -->
+         <h1>Music Blog</h1>
+
+         <nav>
+            <ul>
+                <!-- emmet= li*4 -->
+                <li><span>Home</span></li>
+                <li><a href="#">Get Started</a> </li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Forum</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+    
+    <section>
+        <!-- 
+            The <section> tag defines a section in a doc and has a default value of a block display.
+         -->
+         <h2>Welcome</h2>
+         <main>
+             <!-- 
+                 -Specifies the main content
+                 -There can only be one
+                 -Cannot be a descendant (child) of:
+                    -header
+                    -nav
+                    -article
+                    -aside
+                    -footer
+              -->
+
+              <article>
+                  <!--  The <article> tag specifie independent, self-contained content. -->
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia atque repellat quas nobis quod nostrum vero facere doloremque architecto neque perspiciatis tempore nisi dolorem natus totam pariatur, expedita nam non!</p>  
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia atque repellat quas nobis quod nostrum vero facere doloremque architecto neque perspiciatis tempore nisi dolorem natus totam pariatur, expedita nam non!</p>  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia atque repellat quas nobis quod nostrum vero facere doloremque architecto neque perspiciatis tempore nisi dolorem natus totam pariatur, expedita nam non!</p>  
+                </article>
+
+                <aside>
+                    <!-- 
+                        The <aside> tag defines some content aside(or other than) from the content it is placed in or indirectly related to the surrounding content.
+                     -->
+                     <h2>Favorite Albums</h2>
+                     <!-- a:blank*3>img -->
+                     <a href="http://assets/pinkfloyd.jpg" target="_blank" rel="noopener noreferrer"><img src="./assets/PinkFloyd.jpg" alt="Division Bell - Pink Floyd"></a>
+                     <a href="http://assetsbrokenbells_amoeba.jpg" target="_blank" rel="noopener noreferrer"><img src="./assets/BrokenBells_Amoeba.jpg" alt="BrokenBells - Amoeba"></a>
+                     <a href="http://assets/inyourhonor.jpg" target="_blank" rel="noopener noreferrer"><img src="assets/inYourHonor.jpg" alt="In Your Honor"></a>
+                     <a href="http://assets/tvotR_seeds.jpg" target="_blank" rel="noopener noreferrer"><img src="assets/TVotR_seeds.jpg" alt="TVotR - Seeds"></a>
+    
+
+        
+
+                    </aside>
+         </main>
+    </section>
+
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam et, corrupti itaque nulla at ab expedita! Nemo excepturi magni ab, possimus facere distinctio tempore similique cumque? Sit magnam nulla autem.</p>
+    </footer>
+
+</body>
+</html>
