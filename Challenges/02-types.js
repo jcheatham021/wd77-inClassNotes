@@ -14,7 +14,7 @@ let life = {
 
 }
 
-console.log(typeof obj.str);
+console.log(typeof life.color);
 
 
 /* SILVER
